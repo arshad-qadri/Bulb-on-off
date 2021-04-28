@@ -6,12 +6,10 @@ btn.addEventListener('click', () => {
   if (img1.style.display === 'block' || btn.innerText === 'ON') {
     img1.style.display = 'none';
     img2.style.display = 'block';
-    bgColor.style.backgroundColor = '#000';
     btn.innerHTML = 'OFF';
   } else {
     img1.style.display = 'block';
     img2.style.display = 'none';
-    bgColor.style.backgroundColor = '#fff';
     btn.innerHTML = 'ON';
   }
 });
